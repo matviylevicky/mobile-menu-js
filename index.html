@@ -10,7 +10,7 @@
     <header class="header">
       <div class="container header__container">
         <h1 class="header__logo">LOGO</h1>
-        <nav class="header__nav nav">
+        <nav class="header__nav nav menu-open" data-menu>
           <ul class="nav__list">
             <li class="nav__item">
               <a class="nav__link" href="#">About</a>
@@ -22,6 +22,9 @@
               <a class="nav__link" href="#">Contact us</a>
             </li>
           </ul>
+          <button class="nav__button btn-menu" data-open_btn>
+            <span class="btn-menu__icon"></span>
+          </button>
         </nav>
       </div>
     </header>
@@ -153,5 +156,6 @@
         </div>
       </section>
     </main>
+    <script src="./src/js/mobil-menu.js"></script>
   </body>
 </html>
